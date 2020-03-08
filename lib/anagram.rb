@@ -7,4 +7,4 @@ class Anagram
   end
   def match(arg_array)
     arg_array.selcet do |word|
-      @word.split
+      @word.split("")
