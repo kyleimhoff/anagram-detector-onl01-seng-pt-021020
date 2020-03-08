@@ -6,4 +6,5 @@ class Anagram
     @word = word
   end
   def match(arg_array)
-    arg_array.selcet do |
+    arg_array.selcet do |word|
+      
